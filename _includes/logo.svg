@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="172" height="54" viewBox="0 0 172 54">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 72px;
+        fill: #222;
+        font-family: Lato;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <text id="yoni" class="cls-1" y="53">yoni</text>
+</svg>
