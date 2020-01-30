@@ -25,7 +25,7 @@ navigation: # Navigation links
   - {name: 'About', link: '/about'}
   - {name: 'Project', link: '/project'}
   - {name: 'Contact', link: '/contact'}
-  - {name: 'Categories', link: '/categories'}
+  # - {name: 'Categories', link: '/categories'}
 
 tagline: >
   포트폴리오 페이지입니다.
