@@ -90,7 +90,7 @@ gulp.task( "critical", done => {
   critical.generate( {
     base: "_site/",
     src: "index.html",
-    css: [ "assets/css/main.css","assets/css/yuni.css" ],
+    css: [ "assets/css/main.css"],
     dimensions: [ {
       width: 320,
       height: 480
