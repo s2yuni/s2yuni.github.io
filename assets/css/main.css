@@ -5,5 +5,5 @@
 /*# sourceMappingURL=jekyll-sleek.css.map */
 
 /* yuni 추가 */
-.controls__item a{display:block; width:100%; text-overflow: ellipsis; white-space: nowrap; }
+.controls__item a{display:block; overflow:hidden; width:100%; text-overflow: ellipsis; white-space: nowrap; }
 .controls__inner .prev,.controls__inner .next{overflow: hidden; width:45%;}
