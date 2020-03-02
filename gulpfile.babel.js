@@ -90,7 +90,7 @@ gulp.task( "critical", done => {
   critical.generate( {
     base: "_site/",
     src: "index.html",
-    css: [ "assets/css/main.css"],
+    css: [ "assets/css/main.css" ],
     dimensions: [ {
       width: 320,
       height: 480
@@ -134,40 +134,47 @@ gulp.task( "sw", () => {
 // Images
 gulp.task( "img", () => {
   return gulp.src( "_img/posts/*.{png,jpg}" )
-    /*.pipe( responsive( {
+    .pipe( responsive( {
         "*": [ // For all the images in the posts folder
           {
             width: 230,
+            rename: { suffix: "" }
             // rename: { suffix: "_placehold" }
           },
           { // thubmnail
             width: 535,
+            rename: { suffix: "" }
             // rename: { suffix: "_thumb" }
           },
           { // thumbnail @2x
             width: 535 * 2,
+            rename: { suffix: "" }
             // rename: { suffix: "_thumb@2x" }
           },
           {
             width: 575,
+            rename: { suffix: "" }
             // rename: { suffix: "_xs" }
           },
           {
             width: 767,
+            rename: { suffix: "" }
             // rename: { suffix: "_sm" }
           },
           {
             width: 991,
+            rename: { suffix: "" }
             // rename: { suffix: "_md" }
           },
           {
             width: 1999,
+            rename: { suffix: "" }
             // rename: { suffix: "_lg" }
           },
           { // max-width hero
             width: 1920
           }
-        ]*/
+        ]
       },
       {
         quality: 70,
