@@ -138,31 +138,31 @@ gulp.task( "img", () => {
         "*": [ // For all the images in the posts folder
           {
             width: 230,
-            rename: { suffix: "_placehold" }
+            // rename: { suffix: "_placehold" }
           },
           { // thubmnail
             width: 535,
-            rename: { suffix: "_thumb" }
+            // rename: { suffix: "_thumb" }
           },
           { // thumbnail @2x
             width: 535 * 2,
-            rename: { suffix: "_thumb@2x" }
+            // rename: { suffix: "_thumb@2x" }
           },
           {
             width: 575,
-            rename: { suffix: "_xs" }
+            // rename: { suffix: "_xs" }
           },
           {
             width: 767,
-            rename: { suffix: "_sm" }
+            // rename: { suffix: "_sm" }
           },
           {
             width: 991,
-            rename: { suffix: "_md" }
+            // rename: { suffix: "_md" }
           },
           {
             width: 1999,
-            rename: { suffix: "_lg" }
+            // rename: { suffix: "_lg" }
           },
           { // max-width hero
             width: 1920
