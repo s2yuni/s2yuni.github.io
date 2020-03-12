@@ -12,6 +12,6 @@
 /* 카드형 포스트카드 변경 */
 .post-card{height: 350px;}
 .post-card__header + p {display: none;}
-.card__label{top:0.8rem; left:0.8rem;}
+.post-card__label{top:0.8rem; left:0.8rem;}
 .label{border:2px solid rgba(255,142,148,0.8); background-color: #ff8e94; color:rgba(255, 255, 255, 0.8)}
 .label:focus, .label:hover{border-color: #ff8e94; background-color: #fff; color:rgba(255, 142, 148, 0.8)}
