@@ -9,3 +9,6 @@
 .controls__inner .prev,.controls__inner .next{overflow: hidden; width:45%;}
 .img-center{display: block; margin:0 auto;}
 .hero__wrap .hero__title{font-size: 2.525em;}
+/* 카드형 포스트카드 변경 */
+.post-card{height: 350px;}
+.post-card__header + p {display: none;}
