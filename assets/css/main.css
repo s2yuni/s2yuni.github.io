@@ -8,3 +8,4 @@
 .controls__item a{display:block; overflow:hidden; width:100%; text-overflow: ellipsis; white-space: nowrap; }
 .controls__inner .prev,.controls__inner .next{overflow: hidden; width:45%;}
 .img-center{display: inline-block; margin:0 auto;}
+.hero__wrap .hero__title{font-size: 2.525em;}
