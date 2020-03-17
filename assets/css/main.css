@@ -22,5 +22,5 @@
 .SkillsWrap{display:flex; display:-webkit-flex; justify-content: space-around;}
 .SkillsWrap > li{margin: 0 10px; }
 .SkillsWrap > li >img{display:block; margin:0 auto}
-.skills_text{min-height:160px; margin-top:25px; padding: 10px 15px; border:2px solid red; border-radius: 8px; font-size:14px; color:#888;}
-.skills_text li::before{content:''; display:inline-block; width:4px; height:4px; background-color:red; border-radius: 50%; vertical-align: middle;}
+.skills_text{min-height:160px; margin-top:25px; padding: 10px 15px; border:2px solid #ff8e94; border-radius: 8px; font-size:14px; color:#888;}
+.skills_text li::before{content:''; display:inline-block; width:4px; height:4px; margin-right:5px; border:1px solid #ff8e94; border-radius: 50%; vertical-align: middle;}
