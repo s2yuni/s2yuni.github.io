@@ -23,9 +23,10 @@
 .SkillsWrap > li{margin: 0 10px; }
 .SkillsWrap > li >img{display:block; margin:0 auto}
 .skills_text{min-height:160px; margin-top:25px; padding: 10px 15px; border:2px solid #ff8e94; border-radius: 8px;}
-.skills_text li{font-size:14px; color:#888;}
-.skills_text li::before{content:''; display:inline-block; width:4px; height:4px; margin-right:5px; border:1px solid #ff8e94; border-radius: 50%; vertical-align: middle;}
+.skills_text li{position:relative; padding-left:0.8em; font-size:14px; color:#888;}
+.skills_text li::before{content:''; display:block; position:absolute; top:7px; left:0; width:4px; height:4px; margin-right:5px; border:1px solid #ff8e94; border-radius: 50%; vertical-align: middle;}
 
+/* about  */
 .runningList{overflow:hidden; width: calc(100% - 44px);/*display: flex; justify-content: space-between; */margin:19px 22px;}
 .runningList .runningWeeks-info{float:right; width:80%;}
 .runningList .runningWeeks-info ul{position:relative; height: 100%;}
