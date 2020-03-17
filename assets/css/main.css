@@ -22,5 +22,22 @@
 .SkillsWrap{display:flex; display:-webkit-flex; justify-content: space-around;}
 .SkillsWrap > li{margin: 0 10px; }
 .SkillsWrap > li >img{display:block; margin:0 auto}
-.skills_text{min-height:160px; margin-top:25px; padding: 10px 15px; border:2px solid #ff8e94; border-radius: 8px; font-size:14px; color:#888;}
+.skills_text{min-height:160px; margin-top:25px; padding: 10px 15px; border:2px solid #ff8e94; border-radius: 8px;}
+.skills_text li{font-size:14px; color:#888;}
 .skills_text li::before{content:''; display:inline-block; width:4px; height:4px; margin-right:5px; border:1px solid #ff8e94; border-radius: 50%; vertical-align: middle;}
+
+.runningList{overflow:hidden; width: calc(100% - 44px);/*display: flex; justify-content: space-between; */margin:19px 22px;}
+.runningList .runningWeeks-info{float:right; width:80%;}
+.runningList .runningWeeks-info ul{position:relative; height: 100%;}
+/* .runningList .runningWeeks-info ul::before{content: ''; display: block; position:absolute; top:18px; left:-17.5px; width:1px; height: 100%; background-color: #d1d5db;} */
+.runningList .runningWeeks-info li{position:relative; margin-bottom:20px; padding:12px 13px; border:1px solid #d1d5db; border-radius: 8px;}
+/* .runningList .runningWeeks-info li::before{content: ''; display: block; position: absolute; top:16px; left:-20px; width: 6px; height: 6px; border-radius:50%; background-color:#1963ce; } */
+.runningList .runningWeeks-info li::before{content: ''; display: block; position:absolute; top:18px; left:-17.5px; width:1px; height: 126%; background-color: #d1d5db; }
+.runningList .runningWeeks-info li:last-child::before{content: none;}
+.runningList .runningWeeks-info li > .runningWeeks{position: absolute; top:0; left:-24%;}
+.runningList .runningWeeks-info li > .runningWeeks p{font-size: 22px; font-weight:bold; line-height: 33px; color:#1963ce; text-align: center;}
+.runningList .runningWeeks-info li > .runningWeeks p::after{content: ''; display: block; position: absolute; top:16px; left:41px; width: 6px; height: 6px; border-radius:50%; background-color:#1963ce;}
+.runningList .runningWeeks-info li > .runningWeeks p::before{content: none;}
+.runningList .runningWeeks-info li > .runningWeeks p span{display: block; font-size: 13px; line-height: 19px; color:#6a7385; text-align: center;}
+.runningList .runningWeeks-info li > p{display:table; margin-bottom:3px; font-size: 16px; line-height: 24px; color:#111;}
+.runningList .runningWeeks-info li > p::before{content: '-'; display: table-cell; padding-right:5px; vertical-align:top; }
