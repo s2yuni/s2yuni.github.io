@@ -22,4 +22,5 @@
 .SkillsWrap{display:flex; display:-webkit-flex; justify-content: space-around;}
 .SkillsWrap > li{margin: 0 10px; }
 .SkillsWrap > li >img{display:block; margin:0 auto}
-.skills_text{margin-top:5px; padding: 5px 10px; border:2px solid red; border-radius: 8px; font-size:14px; color:#888;}
+.skills_text{min-height:160px; margin-top:5px; padding: 10px 15px; border:2px solid red; border-radius: 8px; font-size:14px; color:#888;}
+.skills_text li:::before{content: ; display:inline-block; width:4px; height:4px; background-color: rgba(255,142,148,1); vertical-align: middle;}
