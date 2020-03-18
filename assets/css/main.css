@@ -28,17 +28,17 @@
 
 /* about  */
 .aboutWarp{overflow:hidden; width: calc(100% - 44px);/*display: flex; justify-content: space-between; */margin:19px 22px;}
-.aboutWarp .aabout-info{float:right; width:80%;}
-.aboutWarp .aabout-info ul{position:relative; height: 100%;}
-/* .aboutWarp .aabout-info ul::before{content: ''; display: block; position:absolute; top:18px; left:-17.5px; width:1px; height: 100%; background-color: #d1d5db;} */
-.aboutWarp .aabout-info li{position:relative; margin-bottom:20px; padding:12px 13px; border:1px solid #d1d5db; border-radius: 8px;}
-/* .aboutWarp .aabout-info li::before{content: ''; display: block; position: absolute; top:16px; left:-20px; width: 6px; height: 6px; border-radius:50%; background-color:#1963ce; } */
-.aboutWarp .aabout-info li::before{content: ''; display: block; position:absolute; top:18px; left:-17.5px; width:1px; height: 126%; background-color: #d1d5db; }
-.aboutWarp .aabout-info li:last-child::before{content: none;}
-.aboutWarp .aabout-info li > .company-name{position: absolute; top:0; left:-24%;}
-.aboutWarp .aabout-info li > .company-name p{font-size: 22px; font-weight:bold; line-height: 33px; color:#1963ce; text-align: center;}
-.aboutWarp .aabout-info li > .company-name p::after{content: ''; display: block; position: absolute; top:16px; left:41px; width: 6px; height: 6px; border-radius:50%; background-color:#1963ce;}
-.aboutWarp .aabout-info li > .company-name p::before{content: none;}
-.aboutWarp .aabout-info li > .company-name span{display: block; font-size: 13px; line-height: 19px; color:#6a7385; text-align: center;}
-.aboutWarp .aabout-info li > p{display:table; margin-bottom:3px; font-size: 16px; line-height: 24px; color:#111;}
-.aboutWarp .aabout-info li > p::before{content: '-'; display: table-cell; padding-right:5px; vertical-align:top; }
+.aboutWarp .about-info{float:right; width:80%;}
+.aboutWarp .about-info ul{position:relative; height: 100%;}
+/* .aboutWarp .about-info ul::before{content: ''; display: block; position:absolute; top:18px; left:-17.5px; width:1px; height: 100%; background-color: #d1d5db;} */
+.aboutWarp .about-info li{position:relative; margin-bottom:20px; padding:12px 13px; border:1px solid #d1d5db; border-radius: 8px;}
+/* .aboutWarp .about-info li::before{content: ''; display: block; position: absolute; top:16px; left:-20px; width: 6px; height: 6px; border-radius:50%; background-color:#1963ce; } */
+.aboutWarp .about-info li::before{content: ''; display: block; position:absolute; top:18px; left:-17.5px; width:1px; height: 126%; background-color: #d1d5db; }
+.aboutWarp .about-info li:last-child::before{content: none;}
+.aboutWarp .about-info li > .company-name{position: absolute; top:0; left:-24%;}
+.aboutWarp .about-info li > .company-name p{font-size: 22px; font-weight:bold; line-height: 33px; color:#1963ce; text-align: center;}
+.aboutWarp .about-info li > .company-name p::after{content: ''; display: block; position: absolute; top:16px; left:41px; width: 6px; height: 6px; border-radius:50%; background-color:#1963ce;}
+.aboutWarp .about-info li > .company-name p::before{content: none;}
+.aboutWarp .about-info li > .company-name span{display: block; font-size: 13px; line-height: 19px; color:#6a7385; text-align: center;}
+.aboutWarp .about-info li > p{display:table; margin-bottom:3px; font-size: 16px; line-height: 24px; color:#111;}
+.aboutWarp .about-info li > p::before{content: '-'; display: table-cell; padding-right:5px; vertical-align:top; }
