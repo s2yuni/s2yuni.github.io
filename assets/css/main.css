@@ -17,8 +17,9 @@
 .label{border:2px solid rgba(255,142,148,0.8); background-color:  rgba(255,142,148,0.8); color:rgba(255, 255, 255, 0.8)}
 .label:focus, .label:hover{border-color: #ff8e94; background-color: #fff; color:rgba(255, 142, 148, 0.8)}
 /* 메인 skills  */
+ul,li{margin: 0;padding: 0; border: 0; list-style: none;}
 .skills-tit{margin-bottom:40px; text-align: center; font-size:24px; letter-spacing: 0.2em;}
-.SkillsWrap, .SkillsWrap li,.skills_text, .skills_text li {margin: 0;padding: 0; border: 0; list-style: none;}
+/* .SkillsWrap, .SkillsWrap li,.skills_text, .skills_text li {margin: 0;padding: 0; border: 0; list-style: none;} */
 .SkillsWrap{display:flex; display:-webkit-flex; justify-content: space-around;}
 .SkillsWrap > li{margin: 0 10px; }
 .SkillsWrap > li >img{display:block; height:90px; margin:0 auto}
@@ -27,11 +28,11 @@
 .skills_text li::before{content:''; display:block; position:absolute; top:7px; left:0; width:4px; height:4px; margin-right:5px; border:1px solid #ff8e94; border-radius: 50%; }
 
 /* about  */
-.aboutWarp{overflow:hidden; width: calc(100% - 44px);/*display: flex; justify-content: space-between; */margin:19px 22px;}
+.aboutWarp{overflow:hidden; width: calc(100% - 44px);/*display: flex; justify-content: space-between; */}
 .aboutWarp .about-info{float:right; width:80%;}
 .aboutWarp .about-info ul{position:relative; height: 100%;}
 /* .aboutWarp .about-info ul::before{content: ''; display: block; position:absolute; top:18px; left:-17.5px; width:1px; height: 100%; background-color: #d1d5db;} */
-.aboutWarp .about-info li{position:relative; margin-bottom:20px; padding:12px 13px; border:1px solid #d1d5db; border-radius: 8px;}
+.aboutWarp .about-info li{position:relative; right:-30%; width:60%; margin-bottom:20px; padding:12px 13px; border:1px solid #d1d5db; border-radius: 8px; transform: translateX(-10%);}
 /* .aboutWarp .about-info li::before{content: ''; display: block; position: absolute; top:16px; left:-20px; width: 6px; height: 6px; border-radius:50%; background-color:#1963ce; } */
 .aboutWarp .about-info li::before{content: ''; display: block; position:absolute; top:18px; left:-17.5px; width:1px; height: 126%; background-color: #d1d5db; }
 .aboutWarp .about-info li:last-child::before{content: none;}
