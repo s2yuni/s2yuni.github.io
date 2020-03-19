@@ -35,9 +35,9 @@ ul,li{margin: 0;padding: 0; border: 0; list-style: none;}
 .aboutWarp .about-info li{position:relative; right:-50%; width:60%; margin-bottom:20px; padding:12px 13px; border:1px solid #d1d5db; border-radius: 8px; transform: translateX(-10%);}
 /* .aboutWarp .about-info li::before{content: ''; display: block; position: absolute; top:16px; left:-20px; width: 6px; height: 6px; border-radius:50%; background-color:#1963ce; } */
 .aboutWarp .about-info li::before{content: ''; display: block; position:absolute; top:18px; left:-17.5px; width:1px; height: 126%; background-color: #d1d5db; }
-.aboutWarp .about-info li::after{content: ''; display: block; position: absolute; top:16px; left:0; width: 6px; height: 6px; border-radius:50%; background-color:#1963ce;}
+.aboutWarp .about-info li::after{content: ''; display: block; position: absolute; top:16px; left:-20px; width: 6px; height: 6px; border-radius:50%; background-color:#1963ce; transform: translateX(0%);}
 .aboutWarp .about-info li:last-child::before{content: none;}
-.aboutWarp .about-info li > .company-name{position: absolute; top:0; left:-85%;}
+.aboutWarp .about-info li > .company-name{position: absolute; top:0; left:-80%;}
 .aboutWarp .about-info li > .company-name p{font-size: 16px; font-weight:bold; line-height: 1.2em; color:#1963ce; text-align: center;}
 /* .aboutWarp .about-info li > .company-name p::after{content: ''; display: block; position: absolute; top:16px; left:41px; width: 6px; height: 6px; border-radius:50%; background-color:#1963ce;} */
 .aboutWarp .about-info li > .company-name p::before{content: none;}
