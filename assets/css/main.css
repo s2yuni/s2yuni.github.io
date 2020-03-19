@@ -38,13 +38,13 @@ ul,li{margin: 0;padding: 0; border: 0; list-style: none;}
 .aboutWarp .about-info li::after{content: ''; display: block; position: absolute; top:16px; left:-20px; width: 6px; height: 6px; border-radius:50%; background-color:#1963ce; transform: translateX(0%);}
 .aboutWarp .about-info li:last-child::before{content: none;}
 .aboutWarp .about-info li > .company-name{position: absolute; top:0; left:-80%;}
-.aboutWarp .about-info li > .company-name p{font-size: 16px; font-weight:bold; line-height: 1.2em; color:#1963ce; text-align: center;}
+.aboutWarp .about-info li > .company-name p{margin-bottom:5px; font-size: 16px; font-weight:bold; line-height: 1.2em; color:#1963ce; text-align: center;}
 /* .aboutWarp .about-info li > .company-name p::after{content: ''; display: block; position: absolute; top:16px; left:41px; width: 6px; height: 6px; border-radius:50%; background-color:#1963ce;} */
 .aboutWarp .about-info li > .company-name p::before{content: none;}
 .aboutWarp .about-info li > .company-name span{display: block; font-size: 13px; line-height: 19px; color:#6a7385; text-align: center;}
 .aboutWarp .about-info li > p{display:table; margin-bottom:3px; font-size: 14px; line-height: 24px; color:#111;}
 .aboutWarp .about-info li > p::before{content: '-'; display: table-cell; padding-right:5px; vertical-align:top; }
-
+.project_date{display: block; color:#929397; font-size:13px;}
 
 @media screen and (max-width : 325px){
     .aboutWarp .about-info li > .company-name{position: absolute; top:0; left:-85%;}
