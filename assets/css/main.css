@@ -47,6 +47,7 @@ ul,li{margin: 0;padding: 0; border: 0; list-style: none;}
 .project_date{display: block; margin-bottom: 3px; color:#929397; font-size:13px; font-weight: 500;}
 
 @media screen and (max-width : 325px){
+    .header__logo .header__logo--container{width:65px;}
     .aboutWarp .about-info li > .company-name{position: absolute; top:0; left:-85%;}
     .aboutWarp .about-info li > .company-name{position: absolute; top:0; left:-85%;}
 }
