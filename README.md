@@ -124,7 +124,7 @@ In order to add a new page, create a new html or markdown file under root direct
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
   - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
+  # - {name: 'Contact', link: '/contact'}
 ```
 
 `name` is the text that will be shown and link, well, it's a link.
